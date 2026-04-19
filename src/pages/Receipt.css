@@ -1,0 +1,72 @@
+.receipt-container {
+  background: #f4f6f8;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.receipt-card {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.receipt-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.receipt-header h1 {
+  margin-bottom: 5px;
+}
+
+.receipt-sub {
+  color: gray;
+  font-size: 14px;
+}
+
+.receipt-info {
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.receipt-section {
+  margin-top: 20px;
+}
+
+.vote-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.vote-item:last-child {
+  border-bottom: none;
+}
+
+.vote-title {
+  font-weight: 500;
+}
+
+.vote-value {
+  font-weight: bold;
+}
+
+.download-btn {
+  margin-top: 25px;
+  width: 100%;
+  padding: 12px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.download-btn:hover {
+  opacity: 0.85;
+}
