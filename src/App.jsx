@@ -10,14 +10,12 @@ import Receipt from "./pages/Receipt";
 import AdminLogin from "./pages/Admin/AdminLogin";
 import AdminDashboard from "./pages/Admin/AdminDashboard";
 
-// import VoterRedirect from "./pages/VoterRedirect";
 
 export default function App() {
   return (
     <Routes>
       <Route path="/" element={<StartVoting />} />
 
-      {/* <Route path="/voter/:pollId" element={<VoterRedirect />} /> */}
       <Route path="/verify" element={<Verify />} />
 
       <Route path="/vote" element={<Vote />} />
