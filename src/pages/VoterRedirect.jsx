@@ -12,4 +12,6 @@
 //   }, [pollId, navigate]);
 
 //   return <p>Redirecting...</p>;
+
+
 // }
